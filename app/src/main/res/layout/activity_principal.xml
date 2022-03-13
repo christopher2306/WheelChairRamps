@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="100"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ACTIVITY_PRINCIPAL">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_cadeirante"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="121dp"
+        tools:ignore="MissingConstraints"
+        android:layout_weight="40"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="405dp"
+        android:layout_height="51dp"
+        android:fontFamily="casual"
+        android:text="@string/TEMA_APP"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="460dp"
+        android:layout_weight="20"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:autoText="true"
+        android:backgroundTint="@color/black"
+        android:onClick="proximaTela"
+        android:text="GO TO MAP"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#D60C0C"
+        android:textColorLink="#ECECEC"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="572dp"
+        android:layout_weight="5"/>
+
+
+
+
+</LinearLayout>
